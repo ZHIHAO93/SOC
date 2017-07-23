@@ -2,10 +2,16 @@ package Edge;
 
 public class Edge implements Comparable<Object>{
 	
+	// Campo de la clase
 	private int from;
 	private int to;
 	private String type;
 	
+	/**
+	 * Constructor de grafo no dirigido
+	 * @param v El numero de vertices.
+	 * @param w El numero de aristas
+	 */
 	public Edge(int v, int w){
 		this.from = v;
 		this.to = w;

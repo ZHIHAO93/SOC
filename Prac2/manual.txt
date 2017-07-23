@@ -1,0 +1,7 @@
+El ejecutable no necesita ningún tipo de archivo de entrada.
+Al ejecutar, se generaran todas las redes:
+	- 6 redes Barabasi-Albert (de 500, 1000 y 5000 nodos, con m=3 y m=4)
+	- 12 redes aleatorias (una por cada fase de las rede de 500, 1000 y 5000 nodos)
+	- 1 red de Barabasi-Albert de 1894 nodos y con m=10 (Para comparar con la red de Películas)
+	- 1 red aleatoria de 1894 nodos (Para comparar con la red de Películas)
+	- 3 archivos . CSV con información de los nodos (id;label) de 500, 1000 y 5000 nodos

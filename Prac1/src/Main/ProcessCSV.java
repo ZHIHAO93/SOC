@@ -124,6 +124,9 @@ public class ProcessCSV {
 		this.nodeWriter.close();
 	}
 
+	/**
+	 * El m¨¦todo que guarda las aristas en el fichero de salida
+	 */
 	private void writeEdge() {
 		List<String> saveLine = new ArrayList<String>();
 		int weight = 0;
